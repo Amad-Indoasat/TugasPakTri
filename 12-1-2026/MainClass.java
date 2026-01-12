@@ -38,7 +38,7 @@ public class MainClass {
         angka3 = 21.32394f;
         System.out.println("Nomor baru anda adalah: " + angka3);
 
-        final double desimal = 10.12;
+        final double desimal = 10.12; //konstanta tidak bisa diubah
         System.out.println("Final tidak bisa diubah: " + desimal);
 
     }

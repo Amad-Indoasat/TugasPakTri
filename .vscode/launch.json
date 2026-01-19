@@ -1,18 +1,39 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Run C++",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/app",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "preLaunchTask": "build"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "Input",
+      "projectName": "Java_a39f2173"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Java_a39f2173"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "Java_a39f2173"
+    },
+    {
+      "name": "Run C++",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/app",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build"
+    }
+  ]
 }

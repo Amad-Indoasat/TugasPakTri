@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Percabangan",
+      "request": "launch",
+      "mainClass": "Percabangan",
+      "projectName": "TugasPakTri_14935d18"
+    },
+    {
+      "type": "java",
       "name": "Input",
       "request": "launch",
       "mainClass": "Input",

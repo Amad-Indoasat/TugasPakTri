@@ -15,17 +15,15 @@ public class zodiak {
         String pesan = "";
         boolean isValid = true;
 
-        // Proteksi Input (Validasi Tanggal dan Bulan)
         if (bulan < 1 || bulan > 12) {
             System.out.println("Error: Bulan harus antara 1 sampai 12!");
             isValid = false;
         } else {
-            // Validasi jumlah hari dalam bulan
             int maxHari = 31;
             if (bulan == 4 || bulan == 6 || bulan == 9 || bulan == 11) {
                 maxHari = 30;
             } else if (bulan == 2) {
-                maxHari = 29; // Asumsi sederhana untuk Februari
+                maxHari = 29;
             }
             
             if (tanggal < 1 || tanggal > maxHari) {

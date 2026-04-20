@@ -1,0 +1,12 @@
+constructor = method khusus
+
+membuat object
+    namaclass obj = new namaclass();
+
+obj nama method
+
+nama class = Siswa
+nama class harus sama dengan nama .javanya
+
+kalau pakai constructor
+Siswa obj = new Siswa();

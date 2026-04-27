@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sekolah",
+      "request": "launch",
+      "mainClass": "Aplikasi.Sekolah",
+      "projectName": "TugasPakTri_14935d18"
+    },
+    {
+      "type": "java",
+      "name": "ApKelas",
+      "request": "launch",
+      "mainClass": "Informasi.ApKelas",
+      "projectName": "TugasPakTri_14935d18"
+    },
+    {
+      "type": "java",
       "name": "Percabangan",
       "request": "launch",
       "mainClass": "Percabangan",

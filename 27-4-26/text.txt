@@ -1,0 +1,26 @@
+Ringkasan Package di Java:
+
+Package di Java ibarat sebuah "folder" yang digunakan untuk mengelompokkan Class dan Interface yang saling berkaitan.
+
+Fungsi utama:
+1. Mencegah Bentrok Nama (Name Conflicts): Memungkinkan penamaan Class yang sama asalkan berada di package berbeda.
+2. Pengelompokan Logis: Membuat kode lebih rapi, terstruktur, dan mudah dicari.
+3. Mengatur Akses: Mengamankan kode dengan membatasi akses antar Class.
+
+Jenis Package:
+- Built-in (Bawaan Java): Seperti java.util, java.lang, java.io.
+- User-defined (Buatan Programmer): Package yang kita buat sendiri.
+
+Cara Penggunaan:
+- Deklarasi: Gunakan `package nama_package;` di baris pertama file Java.
+- Pemanggilan: Gunakan `import nama_package.NamaClass;` untuk memakai Class dari package lain.
+
+Akses Modifier:
+
+public	Bisa diakses dari mana saja (Class, Subclass, Package, World).
+private	Hanya bisa diakses dari dalam Class yang sama.
+protected	Bisa diakses dari Class yang sama dan Subclass (bahkan di package berbeda).
+default	Bisa diakses dari dalam Package yang sama saja.
+
+
+Buat method di kelas & bisa di panggil di sekolah
